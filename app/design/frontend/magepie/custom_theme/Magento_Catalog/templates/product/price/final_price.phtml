@@ -37,6 +37,7 @@ $schema = ($block->getZone() == 'item_view') ? true : false;
             'skip_adjustments'  => true
         ]); ?>
     </span>
+    <span class="discount-percent">-<?php echo 100 - round(($finalPriceModel->getAmount()->getValue()*100/$priceModel->getAmount()->getValue()), 2); ?>%</span>
 <?php else :?>
     <?= /* @noEscape */ $block->renderAmount($finalPriceModel->getAmount(), [
         'price_id'          => $block->getPriceId('product-price-' . $idSuffix),
