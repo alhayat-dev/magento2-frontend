@@ -1,0 +1,18 @@
+<?php
+/* @var \Magento\Framework\View\Element\Template $block */
+?>
+
+<div class="top-bar">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="top-bar-left">
+                <?php echo $block->getChildHtml('left_top_bar'); ?>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="top-bar-right">
+                <?php echo $block->getChildHtml('right_top_bar'); ?>
+            </div>
+        </div>
+    </div>
+</div>

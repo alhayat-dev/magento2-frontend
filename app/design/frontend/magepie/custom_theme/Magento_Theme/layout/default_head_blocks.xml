@@ -6,7 +6,10 @@
         <css src="css/bootstrap.min.css"/>
 
         <!-- Add external resources -->
-        <css rel="stylesheet" src="https://use.fontawesome.com/releases/v5.3.1/css/all.css" src_type="url"/>
+        <css rel="stylesheet" src="https://use.fontawesome.com/releases/v5.0.0/css/all.css" src_type="url"/>
+
+        <!--Adding Font-awesome manually -->
+<!--        <css src="css/font-awesome.min.css" />-->
 
     </head>
 </page>
